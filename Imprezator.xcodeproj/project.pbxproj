@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1BA9F62DAAF5E19DC4445807 /* Pods_Imprezator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51BB9F9182656538F2A7F0BB /* Pods_Imprezator.framework */; };
+		7F2CF88C1F3A2ED70055FAE9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F2CF88B1F3A2ED70055FAE9 /* GoogleService-Info.plist */; };
 		7F329FE81F39C984002AE3CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F329FE71F39C984002AE3CD /* Main.storyboard */; };
 		7F329FEA1F39CC6F002AE3CD /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F329FE91F39CC6F002AE3CD /* LogInViewController.swift */; };
 		7F329FEC1F39D1E2002AE3CD /* GuestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F329FEB1F39D1E2002AE3CD /* GuestTableViewController.swift */; };
 		7F329FEE1F39D20D002AE3CD /* TicketsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F329FED1F39D20D002AE3CD /* TicketsTableViewController.swift */; };
-		7F329FF01F39E819002AE3CD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F329FEF1F39E819002AE3CD /* GoogleService-Info.plist */; };
 		7F329FF21F39E92C002AE3CD /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F329FF11F39E92C002AE3CD /* Event.swift */; };
 		7F329FF41F39E93A002AE3CD /* Seller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F329FF31F39E93A002AE3CD /* Seller.swift */; };
 		7F329FF61F39E94B002AE3CD /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F329FF51F39E94B002AE3CD /* Tickets.swift */; };
@@ -29,15 +28,16 @@
 		7F65E94D1F39B25A0007FB42 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F65E94C1F39B25A0007FB42 /* SecondViewController.swift */; };
 		7F65E9521F39B25A0007FB42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F65E9511F39B25A0007FB42 /* Assets.xcassets */; };
 		7F65E9551F39B25A0007FB42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F65E9531F39B25A0007FB42 /* LaunchScreen.storyboard */; };
+		C9908EDC1166894973BEA1C8 /* Pods_Imprezator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE44F16324F7386E2EBB05C4 /* Pods_Imprezator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		51BB9F9182656538F2A7F0BB /* Pods_Imprezator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Imprezator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		685E92C16305A9885B588567 /* Pods-Imprezator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Imprezator.release.xcconfig"; path = "Pods/Target Support Files/Pods-Imprezator/Pods-Imprezator.release.xcconfig"; sourceTree = "<group>"; };
+		7F2CF88B1F3A2ED70055FAE9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7F329FE71F39C984002AE3CD /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		7F329FE91F39CC6F002AE3CD /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		7F329FEB1F39D1E2002AE3CD /* GuestTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestTableViewController.swift; sourceTree = "<group>"; };
 		7F329FED1F39D20D002AE3CD /* TicketsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsTableViewController.swift; sourceTree = "<group>"; };
-		7F329FEF1F39E819002AE3CD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7F329FF11F39E92C002AE3CD /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		7F329FF31F39E93A002AE3CD /* Seller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seller.swift; sourceTree = "<group>"; };
 		7F329FF51F39E94B002AE3CD /* Tickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
@@ -56,8 +56,8 @@
 		7F65E9511F39B25A0007FB42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F65E9541F39B25A0007FB42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F65E9561F39B25A0007FB42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		922C5E30C30611D6C7179B9C /* Pods-Imprezator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Imprezator.release.xcconfig"; path = "Pods/Target Support Files/Pods-Imprezator/Pods-Imprezator.release.xcconfig"; sourceTree = "<group>"; };
-		FA57D8B81E4E02A5BDA1F162 /* Pods-Imprezator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Imprezator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Imprezator/Pods-Imprezator.debug.xcconfig"; sourceTree = "<group>"; };
+		A6BDEF7D8D2FD55F504CEC6A /* Pods-Imprezator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Imprezator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Imprezator/Pods-Imprezator.debug.xcconfig"; sourceTree = "<group>"; };
+		BE44F16324F7386E2EBB05C4 /* Pods_Imprezator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Imprezator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,26 +65,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BA9F62DAAF5E19DC4445807 /* Pods_Imprezator.framework in Frameworks */,
+				C9908EDC1166894973BEA1C8 /* Pods_Imprezator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4B9D6A5E99AD573A45F8D300 /* Frameworks */ = {
+		7BD7BFA363FD4DFF85BE8AB6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				51BB9F9182656538F2A7F0BB /* Pods_Imprezator.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		55DB78426C15BBA1E3F47E10 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FA57D8B81E4E02A5BDA1F162 /* Pods-Imprezator.debug.xcconfig */,
-				922C5E30C30611D6C7179B9C /* Pods-Imprezator.release.xcconfig */,
+				A6BDEF7D8D2FD55F504CEC6A /* Pods-Imprezator.debug.xcconfig */,
+				685E92C16305A9885B588567 /* Pods-Imprezator.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -94,8 +86,8 @@
 			children = (
 				7F65E9471F39B25A0007FB42 /* Imprezator */,
 				7F65E9461F39B25A0007FB42 /* Products */,
-				55DB78426C15BBA1E3F47E10 /* Pods */,
-				4B9D6A5E99AD573A45F8D300 /* Frameworks */,
+				7BD7BFA363FD4DFF85BE8AB6 /* Pods */,
+				B73E85F6A8398496A7BC6DF3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,11 +107,11 @@
 				7F65E95C1F39B27C0007FB42 /* Controllers */,
 				7F329FE71F39C984002AE3CD /* Main.storyboard */,
 				7F65E9531F39B25A0007FB42 /* LaunchScreen.storyboard */,
-				7F329FEF1F39E819002AE3CD /* GoogleService-Info.plist */,
 				7F65E9511F39B25A0007FB42 /* Assets.xcassets */,
 				7F65E95F1F39B2960007FB42 /* Models */,
 				7F65E95E1F39B28E0007FB42 /* Extensions */,
 				7F65E9561F39B25A0007FB42 /* Info.plist */,
+				7F2CF88B1F3A2ED70055FAE9 /* GoogleService-Info.plist */,
 			);
 			path = Imprezator;
 			sourceTree = "<group>";
@@ -170,6 +162,14 @@
 			);
 			name = Models;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		B73E85F6A8398496A7BC6DF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE44F16324F7386E2EBB05C4 /* Pods_Imprezator.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,8 +234,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F329FE81F39C984002AE3CD /* Main.storyboard in Resources */,
+				7F2CF88C1F3A2ED70055FAE9 /* GoogleService-Info.plist in Resources */,
 				7F65E9551F39B25A0007FB42 /* LaunchScreen.storyboard in Resources */,
-				7F329FF01F39E819002AE3CD /* GoogleService-Info.plist in Resources */,
 				7F65E9521F39B25A0007FB42 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,7 +438,7 @@
 		};
 		7F65E95A1F39B25A0007FB42 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA57D8B81E4E02A5BDA1F162 /* Pods-Imprezator.debug.xcconfig */;
+			baseConfigurationReference = A6BDEF7D8D2FD55F504CEC6A /* Pods-Imprezator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QZ39Q3ANW7;
@@ -454,7 +454,7 @@
 		};
 		7F65E95B1F39B25A0007FB42 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 922C5E30C30611D6C7179B9C /* Pods-Imprezator.release.xcconfig */;
+			baseConfigurationReference = 685E92C16305A9885B588567 /* Pods-Imprezator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QZ39Q3ANW7;
