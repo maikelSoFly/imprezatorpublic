@@ -1,0 +1,6 @@
+framework module Pods_Imprezator {
+  umbrella header "Pods-Imprezator-umbrella.h"
+
+  export *
+  module * { export * }
+}
