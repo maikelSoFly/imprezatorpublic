@@ -106,8 +106,8 @@ class EventsTableViewController: UITableViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         UIApplication.shared.statusBarStyle = .lightContent
-        navigationController?.hidesBarsOnSwipe = false
-        navigationController?.hidesBarsWhenKeyboardAppears = false
+        
+        
     }
     override var preferredStatusBarStyle : UIStatusBarStyle {
         return .lightContent
@@ -132,8 +132,11 @@ class EventsTableViewController: UITableViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         tableView.reloadData()
-        
+        navigationController?.hidesBarsOnSwipe = false
+        navigationController?.hidesBarsWhenKeyboardAppears = false
     }
+    
+    
     
     
     

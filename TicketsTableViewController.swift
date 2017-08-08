@@ -89,6 +89,8 @@ class TicketsTableViewController: UITableViewController {
         }
     }
     
+  
+    
     @IBAction func handleBtnAddCell(_ sender: UIButton) {
         let stack = Tickets(price: 0, quantity: 0)
         tickets.append(stack)
@@ -113,8 +115,8 @@ class TicketsTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         btnAdd.layer.cornerRadius = btnAdd.frame.width/2
-        navigationController?.hidesBarsOnSwipe = true
-        navigationController?.hidesBarsWhenKeyboardAppears = true
+        //navigationController?.hidesBarsOnSwipe = true
+        //navigationController?.hidesBarsWhenKeyboardAppears = true
         
         var constraints = [AnyObject]()
         
